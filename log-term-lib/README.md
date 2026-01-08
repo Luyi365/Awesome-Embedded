@@ -24,7 +24,7 @@
 
 #### 要点
 
-- 若勾选“<u>Use MicroLIB</u>”，编译会显示缺少“time”库。但实际上标准的 time 库是不适用于嵌入式项目的，因此还需要重定向 time 库。
+- 若勾选“<ins>Use MicroLIB</ins>”，编译会显示缺少“time”库。但实际上标准的 time 库是不适用于嵌入式项目的，因此还需要重定向 time 库。
 - 所有打印函数都是来源于 `stdio.h`，所以还需要对 printf 类的函数进行重定向。
 - 使用介绍：[推荐 | 简单到傻瓜都会用的日志库](https://mp.weixin.qq.com/s/8CvHDWN90iy3GTAr0bV1DA)
 
@@ -79,7 +79,6 @@
 #### 要点
 
 ---
-
 
 ## 终端交互
 

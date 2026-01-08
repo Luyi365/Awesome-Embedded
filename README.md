@@ -11,7 +11,7 @@
 - 为已记录的开源库编写使用心得（好的入门教程、踩过的大坑……总之你想让大家知道关于库的一些什么）；
 - 文档中存在的错误以及一些建议（我们会积极对待任何好的想法）；
 
-<u>分类细则&其他汇总库可查看✨额外部分。</u>
+<ins>分类细则&其他汇总库可查看✨额外部分。</ins>
 
 ---
 
@@ -57,7 +57,7 @@
 
 - [memory](./mem-fs-lib/README.md#memory)：功能极简的内存管理模块，仅提供内存申请与释放，无其他额外功能。
 - [mem_malloc](./mem-fs-lib/README.md#mem_malloc)：简单实用的内存管理模块，不会产生内存碎片。
-- [tlsf：tlsf](./mem-fs-lib/README.md#tlsf：tlsf) 算法的堆内存分配库，支持动态添加、删除内存池区域，分配时间复杂度为 O(1)，不注重线程安全。
+- [tlsf](./mem-fs-lib/README.md#tlsf：tlsf)：TLSF 算法的堆内存分配库，支持动态添加、删除内存池区域，分配时间复杂度为 O(1)，不注重线程安全。
 - [LwMEM](./mem-fs-lib/README.md#lwmem)：专业内存管理库，允许使用碎片内存，注重 RTOS 的线程安全。
 - [jemalloc](./mem-fs-lib/README.md#jemalloc)：高性能的内存分配器，适合处理多线程环境下大规模内存分配和释放的场景。
 - [LWMalloc](./mem-fs-lib/README.md#lwmalloc)：适用于 Linux 的轻量级动态内存分配器，旨在替代默认分配器 ptmalloc，性能和内存使用量都更优。
@@ -175,8 +175,8 @@
 
 ### [Base64](./db-format-parser-lib/README.md#base64)
 
-- [base64](./db-format-parser-lib/README.md#base64-project_1)：极简单的 base64 编解码库。
-- [base64](./db-format-parser-lib/README.md#base64-project_2)：支持 SIMD 和 OpenMP 加速的 base64 编解码库，不使用动态内存，注重线程安全。
+- [base64](./db-format-parser-lib/README.md#base64-project1)：极简单的 base64 编解码库。
+- [base64](./db-format-parser-lib/README.md#base64-project2)：支持 SIMD 和 OpenMP 加速的 base64 编解码库，不使用动态内存，注重线程安全。
 
 ### [CSV](./db-format-parser-lib/README.md#csv)
 

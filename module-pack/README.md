@@ -94,7 +94,6 @@
 
 ---
 
-
 ### AMetal
 
 **链接**：[ametal: AMetal 是芯片级的裸机软件包，定义了跨平台的通用接口（使得基于 AMetal 的应用程序可以和具体硬件完全分离,实现跨平台复用），并提供了一系列驱动及常用的软件服务。 (gitee.com)](https://gitee.com/zlgmcuopen/ametal)

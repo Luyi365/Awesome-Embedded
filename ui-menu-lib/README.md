@@ -6,7 +6,7 @@
 
 ## HMI
 
-> 对于少量图片、文字，完全可以采用<u>图片取模</u>的方式生成数组，然后给到源驱动函数中使用。
+> 对于少量图片、文字，完全可以采用<ins>图片取模</ins>的方式生成数组，然后给到源驱动函数中使用。
 >
 > 该网站提供[图像转编码](https://projedefteri.com/en/tools/lcd-assistant/)和[字符编辑器](https://projedefteri.com/en/tools/lcd-character-generator/)。
 
@@ -27,7 +27,6 @@
 #### 要点
 
 ---
-
 
 ## 单色
 
@@ -99,7 +98,6 @@
 - 由于涉及硬件驱动，因此对设备选型有一定要求，但也可以自己修改接口来适配设备；
 
 ---
-
 
 ## 彩色
 
@@ -376,7 +374,6 @@
 
 ---
 
-
 ## 加速
 
 ### Arm-2D
@@ -399,7 +396,6 @@
 #### 要点
 
 ---
-
 
 ## 图形
 
@@ -444,7 +440,6 @@
 
 ---
 
-
 ## 字形
 
 ### MCUFont
@@ -464,7 +459,6 @@
 #### 要点
 
 ---
-
 
 ## 多媒体
 
@@ -493,7 +487,6 @@
 - 使用介绍：[ffmpeg-libav-tutorial/README-cn.md at master · leandromoreira/ffmpeg-libav-tutorial](https://github.com/leandromoreira/ffmpeg-libav-tutorial/blob/master/README-cn.md)
 
 ---
-
 
 ## 菜单框架
 

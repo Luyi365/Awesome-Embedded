@@ -35,12 +35,11 @@
 
 ---
 
-
 ## CDbus
 
 > 是（Controller Distributed Bus）的缩写，意为控制器分布式总线。是一种简单的协议，基于串行总线而设计。相对于其他通信协议问题，解析 AT 命令很麻烦、Modbus 只支持单方向查询、PPP 协议要转义、字符串协议效率低等问题做了改进。文档：[cdbus_doc/intro_zh.md at master · dukelec/cdbus_doc](https://github.com/dukelec/cdbus_doc/blob/master/intro_zh.md)
 
-### CDBUS{#cdbus project}
+### <a name="cdbus-project"></a>CDBUS
 
 **链接**：[dukelec/cdbus: CDBUS (Controller Distributed Bus) Protocol and IP Core](https://github.com/dukelec/cdbus)
 **特征**：一种简单高效的现场总线，基于且兼容 UART / RS-485 协议和硬件，引入了硬件分包和硬件仲裁等机制，各节点可以自由收发数据包。
@@ -51,7 +50,6 @@
 - 提供的[CDNET TUN](https://github.com/dukelec/cdnet_tun)扩展可以把简单的串口数据包映射成电脑 IP/UDP 数据包；
 
 ---
-
 
 ## Modbus
 
@@ -77,7 +75,6 @@
 
 ---
 
-
 ## I2C
 
 ### i2c_scanner
@@ -89,7 +86,6 @@
 
 ---
 
-
 ## SPI
 
 ### SFUD
@@ -100,7 +96,6 @@
 #### 要点
 
 ---
-
 
 ## USB
 
@@ -122,7 +117,6 @@
 
 ---
 
-
 ## Thread
 
 ### OpenThread
@@ -136,7 +130,6 @@
   ESP的封装层：[esp-idf/components/openthread at be06a6f5ffe36f9554cfc91fe2036e0fc85fea60 · espressif/esp-idf (github.com)](https://github.com/espressif/esp-idf/tree/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/openthread)；
 
 ---
-
 
 ## Bluetooth
 
@@ -168,7 +161,6 @@
 - RT-Thread将其进行了修改并移植：[RT-Thread-packages/nimble: An Apache open-source Bluetooth 5.0 stack porting on RT-Thread](https://github.com/RT-Thread-packages/nimble)；
 
 ---
-
 
 ## TCP/IP
 

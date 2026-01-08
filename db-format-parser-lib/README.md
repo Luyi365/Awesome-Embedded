@@ -95,7 +95,6 @@
 
 ---
 
-
 ## 数据流
 
 > 怎么做到真正的流控：（以 UART 向用户层传输为例）
@@ -141,7 +140,6 @@
 
 ---
 
-
 ## 压缩库
 
 ### lz4
@@ -175,10 +173,9 @@
 
 ---
 
-
 ## URL
 
-### url{#url project}
+### <a name="url-project"></a>url
 
 **链接**：[url: 用 C 语言实现一个简单的解析 url 的算法 (gitee.com)](https://gitee.com/yikoulinux/url)
 **特征**：简单的解析 url 模块，可以解析不同段的信息。
@@ -188,7 +185,6 @@
 - 使用介绍：[分享一个 C 语言实现 url 解析的小实例 (qq.com)](https://mp.weixin.qq.com/s/gRErTrfOfx5RVwyGGXjrEQ)
 
 ---
-
 
 ## GPS
 
@@ -201,7 +197,6 @@
 
 ---
 
-
 ## SSH
 
 ### tinyssh
@@ -212,7 +207,6 @@
 #### 要点
 
 ---
-
 
 ## MQTT
 
@@ -243,7 +237,6 @@
 
 ---
 
-
 ## AT
 
 ### AT Command
@@ -270,7 +263,6 @@
 
 ---
 
-
 ## Base64
 
 > 参考：[嵌入式大杂烩周记 | 第 14 期](https://mp.weixin.qq.com/s/iF2GuG1hDBeNJyxBCfqn8A)
@@ -279,7 +271,7 @@
 >
 > 另外，网上有极多 base64 源码库，可自行查找选择。
 
-### base64{#base64 project_1}
+### <a name="base64-project1"></a>base64
 
 **链接**：[base64: c 语言版 base64 编解码算法实现 (gitee.com)](https://gitee.com/ylguo/base64)
 **特征**：极简单的 base64 编解码库。
@@ -288,7 +280,7 @@
 
 ---
 
-### base64{#base64 project_2}
+### <a name="base64-project2"></a>base64
 
 **链接**：[aklomp/base64: Fast Base64 stream encoder/decoder in C99, with SIMD acceleration (github.com)](https://github.com/aklomp/base64)
 **特征**：支持 SIMD 和 OpenMP 加速的 base64 编解码库，不使用动态内存，注重线程安全。
@@ -296,7 +288,6 @@
 #### 要点
 
 ---
-
 
 ## CSV
 
@@ -330,7 +321,6 @@
 #### 要点
 
 ---
-
 
 ## INI
 
@@ -367,7 +357,6 @@
 
 ---
 
-
 ## TLV
 
 > 协议介绍：((20250612111723-7i05qbb 'TLV'))
@@ -383,7 +372,7 @@
 
 ---
 
-### TLV{#tlv project}
+### <a name="tlv-project"></a>tlv
 
 **链接**：[skullboyer/TLV (github.com)](https://github.com/skullboyer/TLV)
 **特征**：TLV 格式编码实现。
@@ -393,7 +382,6 @@
 - 使用介绍：[【TLV】一种 TLV 编码实现 - 壹点灵异 - 博客园 (cnblogs.com)](https://www.cnblogs.com/skullboyer/p/17982042)
 
 ---
-
 
 ## JSON
 
@@ -431,7 +419,7 @@
 
 ---
 
-### json{#json project}
+### <a name="json-project"></a>json
 
 **链接**：[json: C 语言 json 解释器，简洁高效，灵活安全 (gitee.com)](https://gitee.com/Lamdonn/json)
 **特征**：简单高效的 C 语言 json 生成和解析库，适合简单项目的使用。
@@ -511,7 +499,6 @@
 
 ---
 
-
 ## XML
 
 ### simple\_xml
@@ -532,10 +519,9 @@
 
 ---
 
-
 ## TOML
 
-### TOML{#toml project}
+### <a name="toml-project"></a>toml
 
 **链接**：[TOML：Tom 的（语义）明显、（配置）最小化的语言](https://toml.io/cn/)
 **特征**：比 INI 的扩展性强、又没有层层嵌套的 JSON 和 YAML 的缩进语法，一种人们不常了解的数据标记格式。
@@ -543,7 +529,6 @@
 #### 要点
 
 ---
-
 
 ## 其他
 
