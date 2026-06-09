@@ -19,7 +19,7 @@
 
 ### [按键](./io-pwm-lib/README.md#按键)
 
-- [key_detect](./io-pwm-lib/README.md#key_detect)：简易的按键检测组件，采用注册事件，提供最基本的按键功能。
+- ~~[key_detect](./io-pwm-lib/README.md#key_detect)：简易的按键检测组件，采用注册事件，提供最基本的按键功能。~~（待发布）
 - [key_module](./io-pwm-lib/README.md#key_module)：简单易用的按键检测模块，采用事件回调，提供除矩阵按键的其他基本功能。
 - [FlexibleButton](./io-pwm-lib/README.md#flexiblebutton)：超轻量的按键库，采用轮询扫描检测，简单易用。
 - [MultiButton](./io-pwm-lib/README.md#multibutton)：标准的按键库，每个按键结构以面向对象的思想单独管理。
@@ -99,7 +99,7 @@
 
 ### [I2C](./bus-protocol-lib/README.md#i2c)
 
-- [i2c_scanner](./bus-protocol-lib/README.md#i2c_scanner)：i2c 设备扫描库，摘自 Nordic 的 SDK 库，能够扫描板载的 i2c 设备个数及设备地址。
+- ~~[i2c_scanner](./bus-protocol-lib/README.md#i2c_scanner)：i2c 设备扫描库，摘自 Nordic 的 SDK 库，能够扫描板载的 i2c 设备个数及设备地址。~~(待发布)
 
 ### [SPI](./bus-protocol-lib/README.md#spi)
 
@@ -140,7 +140,7 @@
 
 ### [数据流](./db-format-parser-lib/README.md#数据流)
 
-- [uart_stream](./db-format-parser-lib/README.md#uart_stream)：同事写的数据流缓冲处理库，针对 UART 数据，但有一定的通用性。
+- ~~[uart_stream](./db-format-parser-lib/README.md#uart_stream)：同事写的数据流缓冲处理库，针对 UART 数据，但有一定的通用性。~~（待发布）
 - [xprintf](./db-format-parser-lib/README.md#xprintf)：嵌入式字符串函数，代替不足以实现常规 printf 功能，可以动态的将字符串写入不同外设。主要用途是与多个外设交互，而不是终端交互
 - [CMSIS-Stream](./db-format-parser-lib/README.md#cmsis-stream)：ARM 官方出品的数据流处理组件，提供图形表示，适合专业级项目和多设备数据流处理。
 
@@ -186,7 +186,7 @@
 - [iniparser](./db-format-parser-lib/README.md#iniparser)：基于 C 编写的 ini 解析库，可移植嵌入式系统，注重线程安全。
 
 ### [TLV](./db-format-parser-lib/README.md#tlv)
-- [ITLV](./db-format-parser-lib/README.md#itlv)：TLV（Tag、Length、Value）格式数据的优化版本，极简轻量的数据传输格式，可以以此为基础自定义数据格式，附带 CRC 检验。
+- ~~[ITLV](./db-format-parser-lib/README.md#itlv)：TLV（Tag、Length、Value）格式数据的优化版本，极简轻量的数据传输格式，可以以此为基础自定义数据格式，附带 CRC 检验。~~（待发布）
 - [TLV](./db-format-parser-lib/README.md#tlv-project)：TLV 格式编码实现。
 
 ### [JSON](./db-format-parser-lib/README.md#json)
@@ -251,7 +251,7 @@
 
 - [crc-lib-c](./secure-boot-update-lib/README.md#crc-lib-c)：极简的 CRC 库，包含很多常用的 CRC 参数模型实现，无其他扩展功能。
 - [tiny-AES-c](./secure-boot-update-lib/README.md#tiny-aes-c)：小巧易移植的 AES 算法库，提供 ECB、CTR 和 CBC 三种加密模式。
-- [key](./secure-boot-update-lib/README.md#key)：极简的加密算法，配合密钥使用，功能单一但实用，适合网络加密等领域。
+- ~~[key](./secure-boot-update-lib/README.md#key)：极简的加密算法，配合密钥使用，功能单一但实用，适合网络加密等领域。~~（待发布）
 - [wolfssl](./secure-boot-update-lib/README.md#wolfssl)：是一个轻量级的、可移植的、基于 C 语言的 SSL/TLS 库，它主要针对 IoT、嵌入式和 RTOS 环境。
 - [Mbed TLS](./secure-boot-update-lib/README.md#mbed-tls)：可信旗下的项目，业内流行的 SSL/TLS 库。
 
@@ -338,7 +338,7 @@
 
 - [zBitsView](./ui-menu-lib/README.md#zbitsview)：虚拟多层菜单，仅存在于逻辑层，与有无屏幕无关。
 - [emenu](./ui-menu-lib/README.md#emenu)：不寻常的菜单框架，在代码上就可以反映菜单结构。
-- [Menu](./ui-menu-lib/README.md#menu)：简单实用的菜单框架，适合在公司小型项目上使用。
+- ~~[Menu](./ui-menu-lib/README.md#menu)：简单实用的菜单框架，适合在公司小型项目上使用。~~（待发布）
 - [cotMenu](./ui-menu-lib/README.md#cotmenu)：采用链表方式实现多级深度菜单，相当于显示的逻辑层，与按键、显示屏完全解耦。
 - [MiaoUI](./ui-menu-lib/README.md#miaoui)：基于 U8g2 的 OLED 菜单 UI 框架，支持列表与图标类菜单、非线性动画、任务弹窗等功能。
 - [MultMenu](./ui-menu-lib/README.md#multmenu)：多级菜单 + 单色 OLED 非线性动画库，组合使用，移植简单方便，适合类似需求的创客项目。
@@ -387,9 +387,13 @@
 
 ### [驱动框架](./kernel-framework-lib/README.md#驱动框架)
 
-- [initcall](./kernel-framework-lib/README.md#initcall)：提取 RT-Thread 的初始化框架，使初始化工作在内核中完成。
-- [platform_dev](./kernel-framework-lib/README.md#platform_dev)：模仿 Linux 的简化版驱动框架，设计中不使用动态内存分配，适合低资源的芯片使用。
+- ~~[initcall](./kernel-framework-lib/README.md#initcall)：提取 RT-Thread 的初始化框架，使初始化工作在内核中完成。~~（待发布）
+- ~~[platform_dev](./kernel-framework-lib/README.md#platform_dev)：模仿 Linux 的简化版驱动框架，设计中不使用动态内存分配，适合低资源的芯片使用。~~（待发布）
 - [c-periphery](./kernel-framework-lib/README.md#c-periphery)：基于 Linux 的硬件外设抽象层模板。
+
+### [传感器框架](./kernel-framework-lib/README.md#传感器框架)
+
+- ~~[senser_algorithm](./kernel-framework-lib/README.md#senser_algorithm)：适用于 RTOS 的传感器数据处理框架。~~（待发布）
 
 ### [模组框架](./kernel-framework-lib/README.md#模组框架)
 
@@ -434,13 +438,13 @@
 
 ### [异常捕捉](./exception-test-lib/README.md#异常捕捉)
 
-- [try](./exception-test-lib/README.md#try)：用 C 语言方式实现的 try catch 异常捕获。
+- ~~[try](./exception-test-lib/README.md#try)：用 C 语言方式实现的 try catch 异常捕获。~~（待发布）
 - [CException](./exception-test-lib/README.md#cexception)：适用于 C 语言的简单异常处理，比标准库的更快，可以移植到任何支持 setjmp/longjmp 的平台上。
 - [MLA](./exception-test-lib/README.md#mla)：通过记录内存分配计数，来进行内存泄漏分析的库，小巧易用。
 
 ### [测试](./exception-test-lib/README.md#测试)
 
-- [MTTEST](./exception-test-lib/README.md#mttest)：基于 RTOS 的简易测试框架，采用注册机制。
+- ~~[MTTEST](./exception-test-lib/README.md#mttest)：基于 RTOS 的简易测试框架，采用注册机制。~~（待发布）
 - [MinUnit](./exception-test-lib/README.md#minunit)：C 的最小单元测试框架，不使用内存分配。
 - [CuTest](./exception-test-lib/README.md#cutest)：极简的 C 单元测试框架，使用动态内存分配。
 - [cmockery](./exception-test-lib/README.md#cmockery)：C 单元测试的轻量级框架，基于标准 C 库。
@@ -455,7 +459,7 @@
 
 ### [算术](./data-algo-ai-lib/README.md#算术)
 
-- [float_converter](./data-algo-ai-lib/README.md#float_converter)：浮点数据四舍五入、取整处理库。
+- ~~[float_converter](./data-algo-ai-lib/README.md#float_converter)：浮点数据四舍五入、取整处理库。~~（待发布）
 - [LibBF](./data-algo-ai-lib/README.md#libbf)：高精度浮点运算的库，提供比标准浮点数（如 float 和 double）精度更高的数值，并且可以灵活地控制精度和舍入模式。
 
 ### [数据结构](./data-algo-ai-lib/README.md#数据结构)
@@ -500,7 +504,7 @@
 
 ### [AI 模型＆算法](./data-algo-ai-lib/README.md#AI-模型＆算法)
 
-- [Knn](./data-algo-ai-lib/README.md#knn)：用 C 语言编写的 Knn 算法，十分基本，没有什么优化，不太推荐使用。
+- ~~[Knn](./data-algo-ai-lib/README.md#knn)：用 C 语言编写的 Knn 算法，十分基本，没有什么优化，不太推荐使用。~~（待发布）
 - [NanoDet-Plus](./data-algo-ai-lib/README.md#nanodet-plus)：超快速、高精度的轻量级无锚物体检测模型，基于移动端 AI 框架实现。
 - [pico](./data-algo-ai-lib/README.md#pico)：轻量级的人脸识别算法，基于像素强度比较的目标检测，适合单一、流量较小的场景。
 
