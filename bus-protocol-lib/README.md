@@ -227,3 +227,87 @@
 #### 要点
 
 ---
+
+## GNSS
+
+> [ESA欧空局对相关开源项目的汇总](https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Radio_Frequency_Systems/Open_Source_Software_Resources_for_Space_Downstream_Applications%20#Table1)
+
+### LwGPS
+
+**链接**：[LwGPS latest-develop documentation — LwGPS documentation (majerle.eu)](https://docs.majerle.eu/projects/lwgps/en/latest/)
+**特征**：简易的 NMEA 报文解析库，内置支持 4 个 GPS 报文：GPGGA、GPGSA、GPGSV、GPRMC，以及允许自定义报文。
+
+#### 要点
+
+---
+
+### RTKLIB
+
+**链接**：[GitHub - tomojitakasu/RTKLIB · GitHub](https://github.com/tomojitakasu/RTKLIB)
+**针对低成本 GNSS 接收器版本**：[GitHub - rtklibexplorer/RTKLIB: A version of RTKLIB optimized for low cost GNSS receivers, especially u-blox receivers. It is based on RTKLIB 2.4.3. This software is provided “AS IS” without any warranties of any kind so please be careful, especially if using it in any kind of real-time application. Click on the "Releases" label below to see the latest Windows pre-release. · GitHub](https://github.com/rtklibexplorer/RTKLIB)
+**针对智能手机 GNSS 芯片的优化版本**：[GitHub - salmoshu/MobileGNSS-SPP: An EKF-based SPP system optimized for smartphone · GitHub](https://github.com/salmoshu/MobileGNSS-SPP)
+**特征**：RTK领域的标杆库，广泛应用于商业以及社区，同时也是教科书式的参考手册。
+
+#### 要点
+
+- *src* 目录下各源文件的主要作用说明：
+
+  ```plaintext
+  src
+  ├── rcv                # 专用于解析不同品牌GNSS接收机的专有二进制格式
+  │   ├── binex.c        # 解码BINEX（Binary Exchange）通用格式数据
+  │   ├── crescent.c     # 解码Crescent接收机数据
+  │   ├── javad.c        # 解码JAVAD接收机数据
+  │   ├── novatel.c      # 解码NovAtel接收机二进制格式（如OEM4/5/6/7）
+  │   ├── nvs.c          # 解码NVS接收机数据
+  │   ├── rt17.c         # 解码Trimble RT17/RT27格式数据
+  │   ├── septentrio.c   # 解码Septentrio接收机数据
+  │   ├── skytraq.c      # 解码SkyTraq接收机数据
+  │   ├── ss2.c          # 解码NovAtel Superstar II接收机数据
+  │   └── ublox.c        # 解码u-blox接收机UBX二进制格式
+  ├── convgpx.c          # 将定位结果转换为GPX格式
+  ├── convkml.c          # 将定位结果转换为KML（Google Earth）格式
+  ├── convrnx.c          # RINEX格式转换工具（如压缩、版本转换）
+  ├── datum.c            # 大地基准面转换参数与函数
+  ├── download.c         # 自动从网络（FTP/HTTP）下载精密星历、电离层产品等文件
+  ├── ephemeris.c        # 广播星历的计算（卫星位置、速度、钟差）
+  ├── geoid.c            # 大地水准面模型（如EGM96）计算，用于高程转换
+  ├── gis.c              # 地理信息系统相关辅助函数（如坐标投影变换）
+  ├── ionex.c            # IONEX格式电离层TEC地图的读取与插值
+  ├── lambda.c           # LAMBDA方法实现，用于整周模糊度快速搜索与固定
+  ├── options.c          # 命令行和配置文件的参数解析与处理
+  ├── pntpos.c           # 单点定位模块，计算接收机近似位置、钟差，并为高精度定位提供初始值
+  ├── postpos.c          # 后处理定位主程序，协调数据读取、解算和结果输出流程
+  ├── ppp.c              # 精密单点定位（PPP）算法实现
+  ├── ppp_ar.c           # PPP的模糊度固定（PPP-AR）算法
+  ├── preceph.c          # 精密星历（SP3格式）的读取与插值计算
+  ├── rcvraw.c           # 原始观测数据读取与接口管理，调用rcv/目录下的具体解码器
+  ├── rinex.c            # RINEX格式（观测值/导航电文）的读取与生成
+  ├── rtcm.c             # RTCM公共函数及版本兼容接口
+  ├── rtcm2.c            # RTCM SC-104版本2.x差分数据编解码
+  ├── rtcm3.c            # RTCM SC-104版本3.x差分数据编解码（基础）
+  ├── rtcm3e.c           # RTCM 3.x的扩展消息支持（如MSM）
+  ├── rtkcmn.c           # 公共函数库
+  ├── rtklib.h           # 主头文件（定义所有结构体、常量、函数原型）
+  ├── rtkpos.c           # RTK定位核心引擎，调用pntpos、relpos等实现实时/后处理定位解算
+  ├── rtksvr.c           # RTK服务器核心，处理多基准站输入、生成差分改正数并播发
+  ├── sbas.c             # SBAS（星基增强系统）数据解析与改正量应用
+  ├── solution.c         # 解算结果的管理、滤波和输出格式化
+  ├── stream.c           # 数据流处理（串口、TCP/IP、NTRIP、文件读写）
+  ├── streamsvr.c        # 流服务器功能，支持多客户端连接和数据转发
+  ├── tides.c            # 地球潮汐改正（固体潮、海潮、极潮）
+  └── tle.c              # TLE两行轨道元素解析，用于低精度卫星位置计算（主要对GLONASS）
+  ```
+- 基于RTKLIB衍生的项目及学习研究：[rtkexplorer – Exploring low cost solutions for high precision GPS/GNSS](https://rtkexplorer.com/)
+- 该库的中文翻译及使用讲解：[Winchell](https://salmoshu.github.io/)
+
+---
+
+### Ntrip
+
+**链接**：[GitHub - ybzwyrcld/ntrip: Simple ntrip caster/client/server example programs, using the NTRIP2.0 protocol](https://github.com/ybzwyrcld/ntrip)
+**特征**：C++编写的简易Ntrip协议库，包含流动站（Client）<sup>(Rover)</sup>、中央服务器（Caster）、基准站（CORS）<sup>(Server)</sup>。
+
+#### 要点
+
+---

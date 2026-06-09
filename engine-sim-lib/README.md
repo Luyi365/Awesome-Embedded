@@ -164,12 +164,21 @@
 
 ---
 
-## 虚拟机
+## 虚拟机（沙盒）
 
 ### EVM
 
 **链接**：[EVM 物联网虚拟机 (scriptiot.github.io)](https://scriptiot.github.io/)
 **特征**：针对物联网的超轻量虚拟机，由语法解析前端框架和字节码运行后端构成，可运行在资源受限制的单片机上。支持自行开发 app 运行在此虚拟机引擎上。
+
+#### 要点
+
+---
+
+### uvm32
+
+**链接**：[ringtailsoftware/uvm32: Minimalist, dependency-free virtual machine sandbox for microcontrollers and other resource-constrained devices. Single C file, no dynamic memory allocations, asynchronous design, pure C99](https://github.com/ringtailsoftware/uvm32)
+**特征**：一款极简、无依赖的虚拟机（RISC-V）沙箱，专为微控制器及其他资源受限设备设计。单C文件，无动态内存分配，采用异步架构设计。可作为LUA、MicroPython等脚本引擎的替代品。
 
 #### 要点
 

@@ -2,7 +2,7 @@
 
 ## 🚀关于
 
-> 一个精心整理的嵌入式开源代码库集合，并按照功能进行了细致的分类，涵盖了💥**95%** 以上的开发场景！
+> 一个精心整理的嵌入式开源代码库集合，并按照功能进行了细致的分类，涵盖了💥**绝大部分** 的开发场景！
 > 与大多数[awesome](https://github.com/sindresorhus/awesome)库不同的是：除了对相关代码库进行收集整理，还对部分库的**使用要点**进行了记录📝。
 
 一个好的开源项目是社区共同努力的结果🤗，如果下面有你感兴趣的部分，十分欢迎大家通过 Issues 进行留言：
@@ -11,7 +11,7 @@
 - 为已记录的开源库编写使用心得（好的入门教程、踩过的大坑……总之你想让大家知道关于库的一些什么）；
 - 文档中存在的错误以及一些建议（我们会积极对待任何好的想法）；
 
-<ins>分类细则&其他汇总库可查看✨额外部分。</ins>
+<ins>分类细则&其他汇总库可查看[✨额外](#额外)部分。</ins>
 
 ---
 
@@ -153,10 +153,6 @@
 ### [URL](./db-format-parser-lib/README.md#url)
 
 - [url](./db-format-parser-lib/README.md#url-project)：简单的解析 url 模块，可以解析不同段的信息。
-
-### [GPS](./db-format-parser-lib/README.md#gps)
-
-- [LwGPS](./db-format-parser-lib/README.md#lwgps)：简易的 NMEA 报文解析库，内置支持 4 个 GPS 报文：GPGGA、GPGSA、GPGSV、GPRMC。
 
 ### [SSH](./db-format-parser-lib/README.md#ssh)
 
@@ -671,9 +667,10 @@
 
 - [rawdrawandroid](./engine-sim-lib/README.md#rawdrawandroid)：使用 C 语言开发 Android 应用的开发框架，轻量且跨平台。
 
-### [虚拟机](./engine-sim-lib/README.md#虚拟机)
+### [虚拟机（沙盒）](./engine-sim-lib/README.md#虚拟机沙盒)
 
 - [EVM](./engine-sim-lib/README.md#evm)：针对物联网的超轻量虚拟机，由语法解析前端框架和字节码运行后端构成，可运行在资源受限制的单片机上。支持自行开发 app 运行在此虚拟机引擎上。
+- [uvm32](./engine-sim-lib/README.md#uvm32)：一款极简、无依赖的虚拟机（RISC-V）沙箱，专为微控制器及其他资源受限设备设计。单C文件，无动态内存分配，采用异步架构设计。可作为LUA、MicroPython等脚本引擎的替代品。
 
 ### [游戏框架](./engine-sim-lib/README.md#游戏框架)
 
@@ -682,7 +679,7 @@
 
 ---
 
-##  **✨** 额外
+## ✨额外
 
 ### 库分类细则
 
@@ -693,11 +690,12 @@
 - 集功能：集成多个功能的软件包或框架系统等，分类原则是按照 `领域` 进行划分；
 - 其他：只适配特定类型的芯片或引擎库；
 
-**注意：该开源库不记录仅适配 POSIX 接口的库，若需要请到[其他相关开源库汇总](###其他相关开源库汇总)中查找；*
+**注意：该开源库不记录仅适配 POSIX 接口的库，若需要请到[其他相关开源库汇总](#其他相关开源库汇总)中查找；*
 
 ### 其他相关开源库汇总
 
 - [EmbedSummary: 嵌入式大杂烩资源汇总 (gitee.com)](https://gitee.com/zhengnianli/EmbedSummary)
+- [nhivp/Awesome-Embedded: A curated list of awesome embedded programming.](https://github.com/nhivp/Awesome-Embedded)
 - [fffaraz/awesome-cpp: A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.](https://github.com/fffaraz/awesome-cpp)
 
-除此之外，Arduino 社区包含极多库，可在 Arduino IDE 应用内搜索，也可以在 [Arduino Library List - Arduino Libraries](https://www.arduinolibraries.info/) 中搜索，其他厂商芯片在使用时需要移植 ((20231027122554-th2au0c "Arduino内核"))。
+除此之外，Arduino 社区包含极多库，可在 Arduino IDE 应用内搜索，也可以在 [Arduino Library List - Arduino Libraries](https://www.arduinolibraries.info/) 中搜索，其他厂商芯片在使用时需要移植[Arduino内核](./engine-sim-lib/README.md#arduinocore-api)。

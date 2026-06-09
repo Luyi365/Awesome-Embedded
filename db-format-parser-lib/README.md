@@ -186,17 +186,6 @@
 
 ---
 
-## GPS
-
-### LwGPS
-
-**链接**：[LwGPS latest-develop documentation — LwGPS documentation (majerle.eu)](https://docs.majerle.eu/projects/lwgps/en/latest/)
-**特征**：简易的 NMEA 报文解析库，内置支持 4 个 GPS 报文：GPGGA、GPGSA、GPGSV、GPRMC，以及允许自定义报文。
-
-#### 要点
-
----
-
 ## SSH
 
 ### tinyssh
