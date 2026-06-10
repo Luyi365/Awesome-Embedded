@@ -6,8 +6,8 @@
 
 ### CmBacktrace
 
-**链接**：[armink/CmBacktrace: Advanced fault backtrace library for ARM Cortex-M series MCU | ARM Cortex-M 系列 MCU 错误追踪库 (github.com)](https://github.com/armink/CmBacktrace)
-**特征**：针对 ARM Cortex-M 系列 MCU 的错误追踪库，目前几乎所有项目级代码都会添加的库。
+**链接**：[armink/CmBacktrace: Advanced fault backtrace library for ARM Cortex-M series MCU | ARM Cortex-M 系列 MCU 错误追踪库 (github.com)](https://github.com/armink/CmBacktrace)  
+**特征**：针对 ARM Cortex-M 系列 MCU 的错误追踪库，目前几乎所有项目级代码都会添加的库。  
 
 #### 要点
 
@@ -21,17 +21,17 @@
 
 ### try
 
-**链接**：[C 语言方式实现的 try catch 异常捕获 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/ea8h1g329prm05unxiqtv60)
-**特征**：用 C 语言方式实现的 try catch 异常捕获。
+**链接**：[C 语言方式实现的 try catch 异常捕获 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/ea8h1g329prm05unxiqtv60)  
+**特征**：用 C 语言方式实现的 try catch 异常捕获。  
 
 #### 要点
 
 ---
 
-### **CException**
+### CException
 
-**链接**：[CException — Throw The Switch](https://www.throwtheswitch.org/cexception)
-**特征**：适用于C语言的简单异常处理，比标准库的更快，可以移植到任何支持 setjmp/longjmp 的平台上。
+**链接**：[CException — Throw The Switch](https://www.throwtheswitch.org/cexception)  
+**特征**：适用于C语言的简单异常处理，比标准库的更快，可以移植到任何支持 setjmp/longjmp 的平台上。  
 
 #### 要点
 
@@ -39,8 +39,8 @@
 
 ### MLA
 
-**链接**：[skullboyer/MLA (github.com)](https://github.com/skullboyer/MLA)
-**特征**：通过记录内存分配计数，来进行内存泄漏分析的库，小巧易用。
+**链接**：[skullboyer/MLA (github.com)](https://github.com/skullboyer/MLA)  
+**特征**：通过记录内存分配计数，来进行内存泄漏分析的库，小巧易用。  
 
 #### 要点
 
@@ -54,8 +54,8 @@
 
 ### MTTEST
 
-**链接**：[基于RTOS的注册机制代码测试框架 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/fhzm8d4wairyxnqlcup6059)
-**特征**：基于RTOS的简易测试框架，采用注册机制。
+**链接**：[基于RTOS的注册机制代码测试框架 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/fhzm8d4wairyxnqlcup6059)  
+**特征**：基于RTOS的简易测试框架，采用注册机制。  
 
 #### 要点
 
@@ -65,8 +65,8 @@
 
 ### MinUnit
 
-**链接**：[siu/minunit: Minimal unit testing framework for C (github.com)](https://github.com/siu/minunit)
-**特征**：C 的最小单元测试框架，不使用内存分配。
+**链接**：[siu/minunit: Minimal unit testing framework for C (github.com)](https://github.com/siu/minunit)  
+**特征**：C 的最小单元测试框架，不使用内存分配。  
 
 #### 要点
 
@@ -76,8 +76,8 @@
 
 ### CuTest
 
-**链接**：[CuTest: The Cutest C Unit Testing Framework (sourceforge.net)](https://cutest.sourceforge.net/)
-**特征**：极简的C单元测试框架，使用动态内存分配。
+**链接**：[CuTest: The Cutest C Unit Testing Framework (sourceforge.net)](https://cutest.sourceforge.net/)  
+**特征**：极简的C单元测试框架，使用动态内存分配。  
 
 #### 要点
 
@@ -85,8 +85,8 @@
 
 ### cmockery
 
-**链接**：[google/cmockery: A lightweight library to simplify and generalize the process of writing unit tests for C applications. (github.com)](https://github.com/google/cmockery)
-**特征**：C 单元测试的轻量级框架，基于标准 C 库。
+**链接**：[google/cmockery: A lightweight library to simplify and generalize the process of writing unit tests for C applications. (github.com)](https://github.com/google/cmockery)  
+**特征**：C 单元测试的轻量级框架，基于标准 C 库。  
 
 #### 要点
 
@@ -94,8 +94,8 @@
 
 ### EEMBC
 
-**链接**：[Embedded Microprocessor Benchmark Consortium (eembc.org)](https://www.eembc.org/)
-**特征**：EEMBC公司提供嵌入式领域众多测试库，主要测试芯片性能，属于业内标准，适合企业级项目部署。
+**链接**：[Embedded Microprocessor Benchmark Consortium (eembc.org)](https://www.eembc.org/)  
+**特征**：EEMBC公司提供嵌入式领域众多测试库，主要测试芯片性能，属于业内标准，适合企业级项目部署。  
 
 #### 要点
 
@@ -106,8 +106,8 @@
 
 ### Unity
 
-**链接**：[Unity — Throw The Switch](https://www.throwtheswitch.org/unity)
-**特征**：C 语言构建的单元测试框架，专注于使用嵌入式工具链。
+**链接**：[Unity — Throw The Switch](https://www.throwtheswitch.org/unity)  
+**特征**：C 语言构建的单元测试框架，专注于使用嵌入式工具链。  
 
 #### 要点
 
@@ -117,8 +117,8 @@
 
 ### greatest
 
-**链接**：[silentbicycle/greatest: A C testing library in 1 file. No dependencies, no dynamic allocation. ISC licensed. (github.com)](https://github.com/silentbicycle/greatest)
-**特征**：小巧的C语言测试系统，使用插桩/覆盖测试，但可以与其他程序一起运行。
+**链接**：[silentbicycle/greatest: A C testing library in 1 file. No dependencies, no dynamic allocation. ISC licensed. (github.com)](https://github.com/silentbicycle/greatest)  
+**特征**：小巧的C语言测试系统，使用插桩/覆盖测试，但可以与其他程序一起运行。  
 
 #### 要点
 
@@ -128,8 +128,8 @@
 
 ### Catch2
 
-**链接**：[catchorg/Catch2: A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)](https://github.com/catchorg/Catch2)
-**特征**：一个流行的 C++ 单元测试框架，仅一个头文件，它的设计目标是轻量、易用且无依赖。
+**链接**：[catchorg/Catch2: A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)](https://github.com/catchorg/Catch2)  
+**特征**：一个流行的 C++ 单元测试框架，仅一个头文件，它的设计目标是轻量、易用且无依赖。  
 
 #### 要点
 

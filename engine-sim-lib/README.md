@@ -6,8 +6,8 @@
 
 ### <a name="softfp-project"></a>softfp
 
-**链接**：[SoftFP Library](https://bellard.org/softfp/)
-**特征**：用于没有硬件浮点单元（FPU）的情况下，作为软件浮点运算的实现方式。
+**链接**：[SoftFP Library](https://bellard.org/softfp/)  
+**特征**：用于没有硬件浮点单元（FPU）的情况下，作为软件浮点运算的实现方式。  
 
 #### 要点
 
@@ -17,8 +17,8 @@
 
 ### sds
 
-**链接**：[antirez/sds: Simple Dynamic Strings library for C (github.com)](https://github.com/antirez/sds)
-**特征**：简单动态字符串库，使用堆内存，其作用就是在 C 语言中仿照 C++ 的 string 类型。
+**链接**：[antirez/sds: Simple Dynamic Strings library for C (github.com)](https://github.com/antirez/sds)  
+**特征**：简单动态字符串库，使用堆内存，其作用就是在 C 语言中仿照 C++ 的 string 类型。  
 
 #### 要点
 
@@ -28,8 +28,8 @@
 
 ### STR
 
-**链接**：[mickjc750/str: C String handling library inspired by Luca Sas (github.com)](https://github.com/mickjc750/str)
-**特征**：更高级的字符串处理库，拥有字符串分割/修剪/搜索/查错等功能。
+**链接**：[mickjc750/str: C String handling library inspired by Luca Sas (github.com)](https://github.com/mickjc750/str)  
+**特征**：更高级的字符串处理库，拥有字符串分割/修剪/搜索/查错等功能。  
 
 #### 要点
 
@@ -37,8 +37,8 @@
 
 ### etl
 
-**链接**：[ETLCPP/etl: Embedded Template Library (github.com)](https://github.com/ETLCPP/etl)
-**特征**：适用于嵌入式的 C++ 模板库。
+**链接**：[ETLCPP/etl: Embedded Template Library (github.com)](https://github.com/ETLCPP/etl)  
+**特征**：适用于嵌入式的 C++ 模板库。  
 
 #### 要点
 
@@ -46,8 +46,8 @@
 
 ### LW_OOPC
 
-**链接**：[Akagi201/lw_oopc: modified from http://sourceforge.net/projects/lwoopc/ (github.com)](https://github.com/Akagi201/lw_oopc)
-**特征**：适合嵌入式的面向对象的编程扩展，在源码的基础上进行了多个版本的更新优化，简单易用。
+**链接**：[Akagi201/lw_oopc: modified from http://sourceforge.net/projects/lwoopc/ (github.com)](https://github.com/Akagi201/lw_oopc)  
+**特征**：适合嵌入式的面向对象的编程扩展，在源码的基础上进行了多个版本的更新优化，简单易用。  
 
 #### 要点
 
@@ -55,8 +55,8 @@
 
 ### PLOOC
 
-**链接**：[GorgonMeducer/PLOOC: Protected Low-overhead Object Oriented Programming with ANSI-C (github.com)](https://github.com/GorgonMeducer/PLOOC)
-**特征**：在 C 语言中提供面向对象的编程扩展，可以实现私有成员、继承、重载等功能。
+**链接**：[GorgonMeducer/PLOOC: Protected Low-overhead Object Oriented Programming with ANSI-C (github.com)](https://github.com/GorgonMeducer/PLOOC)  
+**特征**：在 C 语言中提供面向对象的编程扩展，可以实现私有成员、继承、重载等功能。  
 
 #### 要点
 
@@ -69,8 +69,8 @@
 
 ### vlib
 
-**链接**：[vlib: C 语言版 STL，包含通用数据类型的队列、堆栈、双端队列、向量、列表、集合、映射等容器，以及通用的排序算法 (gitee.com)](https://gitee.com/Lamdonn/vlib)
-**特征**：C 语言模板库，提供了类似 C++ STL 的功能，包含了常用的容器，且可以使用任意数据类型。
+**链接**：[vlib: C 语言版 STL，包含通用数据类型的队列、堆栈、双端队列、向量、列表、集合、映射等容器，以及通用的排序算法 (gitee.com)](https://gitee.com/Lamdonn/vlib)  
+**特征**：C 语言模板库，提供了类似 C++ STL 的功能，包含了常用的容器，且可以使用任意数据类型。  
 
 #### 要点
 
@@ -80,8 +80,8 @@
 
 ### MicroLua
 
-**链接**：[GitHub - MicroLua/MicroLua: Lua for the RP2040 microcontroller](https://github.com/MicroLua/MicroLua)
-**特征**：适用于树莓派 Pico 的 LUA 开发软件包，通过移植修改应该可以用于其他微控制器设备。
+**链接**：[GitHub - MicroLua/MicroLua: Lua for the RP2040 microcontroller](https://github.com/MicroLua/MicroLua)  
+**特征**：适用于树莓派 Pico 的 LUA 开发软件包，通过移植修改应该可以用于其他微控制器设备。  
 
 #### 要点
 
@@ -91,8 +91,8 @@
 
 ### eLua
 
-**链接**：[eLua - eluaproject](https://eluaproject.net/)
-**特征**：适用于嵌入式的 Lua 引擎。可在嵌入式平台使用 lua 脚本语言。
+**链接**：[eLua - eluaproject](https://eluaproject.net/)  
+**特征**：适用于嵌入式的 Lua 引擎。可在嵌入式平台使用 lua 脚本语言。  
 
 #### 要点
 
@@ -109,8 +109,8 @@
 
 ### PikaPython
 
-**链接**：[嵌入式脚本组件](https://pikapython.com/)
-**特征**：超轻量级 python 引擎，零依赖，零配置，使用 Python 代替 C 开发。具有大量的中文文档和视频资料。
+**链接**：[嵌入式脚本组件](https://pikapython.com/)  
+**特征**：超轻量级 python 引擎，零依赖，零配置，使用 Python 代替 C 开发。具有大量的中文文档和视频资料。  
 
 #### 要点
 
@@ -120,8 +120,8 @@
 
 ### Rust Embedded
 
-**链接**：[Rust Embedded](https://github.com/rust-embedded)
-**特征**：专注于改善在资源受限的环境和非传统平台中使用 Rust 的端到端体验。
+**链接**：[Rust Embedded](https://github.com/rust-embedded)  
+**特征**：专注于改善在资源受限的环境和非传统平台中使用 Rust 的端到端体验。  
 
 #### 要点
 
@@ -131,8 +131,8 @@
 
 ### mJS
 
-**链接**：[cesanta/mjs: Embedded JavaScript engine for C/C++](https://github.com/cesanta/mjs)
-**特征**：专用于微控制器的 JavaScript 引擎，空间占用量小(RAM:1k,ROM:50k)，基于 ES6 标准。
+**链接**：[cesanta/mjs: Embedded JavaScript engine for C/C++](https://github.com/cesanta/mjs)  
+**特征**：专用于微控制器的 JavaScript 引擎，空间占用量小(RAM:1k,ROM:50k)，基于 ES6 标准。  
 
 #### 要点
 
@@ -142,8 +142,8 @@
 
 ### ArduinoCore-API
 
-**链接**：[arduino/ArduinoCore-API: Hardware independent layer of the Arduino cores defining the official API (github.com)](https://github.com/arduino/ArduinoCore-API)
-**特征**：Arduino 内核的硬件独立层，使用基于 Arduino 相关的库时需要包含对应的 API 文件。
+**链接**：[arduino/ArduinoCore-API: Hardware independent layer of the Arduino cores defining the official API (github.com)](https://github.com/arduino/ArduinoCore-API)  
+**特征**：Arduino 内核的硬件独立层，使用基于 Arduino 相关的库时需要包含对应的 API 文件。  
 
 #### 要点
 
@@ -155,8 +155,8 @@
 
 ### rawdrawandroid
 
-**链接**：[cnlohr/rawdrawandroid: Build android apps without any java, entirely in C and Make](https://github.com/cnlohr/rawdrawandroid)
-**特征**：使用 C 语言开发 Android 应用的开发框架，轻量且跨平台。
+**链接**：[cnlohr/rawdrawandroid: Build android apps without any java, entirely in C and Make](https://github.com/cnlohr/rawdrawandroid)  
+**特征**：使用 C 语言开发 Android 应用的开发框架，轻量且跨平台。  
 
 #### 要点
 
@@ -168,8 +168,8 @@
 
 ### EVM
 
-**链接**：[EVM 物联网虚拟机 (scriptiot.github.io)](https://scriptiot.github.io/)
-**特征**：针对物联网的超轻量虚拟机，由语法解析前端框架和字节码运行后端构成，可运行在资源受限制的单片机上。支持自行开发 app 运行在此虚拟机引擎上。
+**链接**：[EVM 物联网虚拟机 (scriptiot.github.io)](https://scriptiot.github.io/)  
+**特征**：针对物联网的超轻量虚拟机，由语法解析前端框架和字节码运行后端构成，可运行在资源受限制的单片机上。支持自行开发 app 运行在此虚拟机引擎上。  
 
 #### 要点
 
@@ -177,8 +177,8 @@
 
 ### uvm32
 
-**链接**：[ringtailsoftware/uvm32: Minimalist, dependency-free virtual machine sandbox for microcontrollers and other resource-constrained devices. Single C file, no dynamic memory allocations, asynchronous design, pure C99](https://github.com/ringtailsoftware/uvm32)
-**特征**：一款极简、无依赖的虚拟机（RISC-V）沙箱，专为微控制器及其他资源受限设备设计。单C文件，无动态内存分配，采用异步架构设计。可作为LUA、MicroPython等脚本引擎的替代品。
+**链接**：[ringtailsoftware/uvm32: Minimalist, dependency-free virtual machine sandbox for microcontrollers and other resource-constrained devices. Single C file, no dynamic memory allocations, asynchronous design, pure C99](https://github.com/ringtailsoftware/uvm32)  
+**特征**：一款极简、无依赖的虚拟机（RISC-V）沙箱，专为微控制器及其他资源受限设备设计。单C文件，无动态内存分配，采用异步架构设计。可作为LUA、MicroPython等脚本引擎的替代品。  
 
 #### 要点
 
@@ -188,8 +188,8 @@
 
 ### Arduboy
 
-**链接**：[Arduboy](https://www.arduboy.com/)
-**特征**：提供游戏制作所需的编程接口，使其允许游戏玩家轻松制作 C/C++游戏，运行在该平台上，并通过社区共享。
+**链接**：[Arduboy](https://www.arduboy.com/)  
+**特征**：提供游戏制作所需的编程接口，使其允许游戏玩家轻松制作 C/C++游戏，运行在该平台上，并通过社区共享。  
 
 #### 要点
 
@@ -199,8 +199,8 @@
 
 ### raylib
 
-**链接**：[raylib | A simple and easy-to-use library to enjoy videogames programming](https://www.raylib.com/)
-**特征**：纯C编写的游戏库，简易的视频、游戏编程库。
+**链接**：[raylib | A simple and easy-to-use library to enjoy videogames programming](https://www.raylib.com/)  
+**特征**：纯C编写的游戏库，简易的视频、游戏编程库。  
 
 #### 要点
 

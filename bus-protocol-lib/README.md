@@ -17,8 +17,8 @@
 
 ### LwOW
 
-**链接**：[LwOW latest-develop documentation — LwOW documentation (majerle.eu)](https://docs.majerle.eu/projects/lwow/en/latest/)
-**特征**：专业的 1-Wire 协议库，允许通过 UART 或单 GPIO 通讯，提供线程安全的 API。
+**链接**：[LwOW latest-develop documentation — LwOW documentation (majerle.eu)](https://docs.majerle.eu/projects/lwow/en/latest/)  
+**特征**：专业的 1-Wire 协议库，允许通过 UART 或单 GPIO 通讯，提供线程安全的 API。  
 
 #### 要点
 
@@ -28,8 +28,8 @@
 
 ### MUDLink
 
-**链接**：[jakeread/mudlink: Modular UART Duplex Link: cobs, crc, flow-control and delivery guarantees on any UART port in Arduino (github.com)](https://github.com/jakeread/mudlink)
-**特征**：将UART串口提升为一个链路/传输层，并保证成帧数据包的交付，此外还传输保证和流量控制。它还记录链路性能的统计信息等功能。
+**链接**：[jakeread/mudlink: Modular UART Duplex Link: cobs, crc, flow-control and delivery guarantees on any UART port in Arduino (github.com)](https://github.com/jakeread/mudlink)  
+**特征**：将UART串口提升为一个链路/传输层，并保证成帧数据包的交付，此外还传输保证和流量控制。它还记录链路性能的统计信息等功能。  
 
 #### 要点
 
@@ -41,8 +41,8 @@
 
 ### <a name="cdbus-project"></a>CDBUS
 
-**链接**：[dukelec/cdbus: CDBUS (Controller Distributed Bus) Protocol and IP Core](https://github.com/dukelec/cdbus)
-**特征**：一种简单高效的现场总线，基于且兼容 UART / RS-485 协议和硬件，引入了硬件分包和硬件仲裁等机制，各节点可以自由收发数据包。
+**链接**：[dukelec/cdbus: CDBUS (Controller Distributed Bus) Protocol and IP Core](https://github.com/dukelec/cdbus)  
+**特征**：一种简单高效的现场总线，基于且兼容 UART / RS-485 协议和硬件，引入了硬件分包和硬件仲裁等机制，各节点可以自由收发数据包。  
 
 #### 要点
 
@@ -55,8 +55,8 @@
 
 ### freemodbus
 
-**链接**：[cwalter-at/freemodbus: BSD licensed MODBUS RTU/ASCII and TCP slave (github.com)](https://github.com/cwalter-at/freemodbus)
-**特征**：由 armink 移植的 modbus 协议栈，同时支持主机和从机的功能。
+**链接**：[cwalter-at/freemodbus: BSD licensed MODBUS RTU/ASCII and TCP slave (github.com)](https://github.com/cwalter-at/freemodbus)  
+**特征**：由 armink 移植的 modbus 协议栈，同时支持主机和从机的功能。  
 
 #### 要点
 
@@ -66,8 +66,8 @@
 
 ### nanoMODBUS
 
-**链接**：[debevv/nanoMODBUS: A compact MODBUS RTU/TCP C library for embedded/microcontrollers](https://github.com/debevv/nanoMODBUS)
-**特征**：精简的 modbus 库，可按需裁剪功能，旨在资源有限的环境中运行。
+**链接**：[debevv/nanoMODBUS: A compact MODBUS RTU/TCP C library for embedded/microcontrollers](https://github.com/debevv/nanoMODBUS)  
+**特征**：精简的 modbus 库，可按需裁剪功能，旨在资源有限的环境中运行。  
 
 #### 要点
 
@@ -79,8 +79,8 @@
 
 ### i2c_scanner
 
-**链接**：[I2C 设备扫描 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/7yob95ircndjx2mzv14l013)
-**特征**：i2c 设备扫描库，摘自 Nordic 的 SDK 库，能够扫描板载的 i2c 设备个数及设备地址。
+**链接**：[I2C 设备扫描 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/7yob95ircndjx2mzv14l013)  
+**特征**：i2c 设备扫描库，摘自 Nordic 的 SDK 库，能够扫描板载的 i2c 设备个数及设备地址。  
 
 #### 要点
 
@@ -90,8 +90,8 @@
 
 ### SFUD
 
-**链接**：[armink/SFUD: An using JEDEC's SFDP standard serial (SPI) flash universal driver library | 一款使用 JEDEC SFDP 标准的串行 (SPI) Flash 通用驱动库 (github.com)](https://github.com/armink/SFUD)
-**特征**：开源的串行 SPI Flash 通用驱动库，通过编写设备表，做到能适配各型号Flash芯片。
+**链接**：[armink/SFUD: An using JEDEC's SFDP standard serial (SPI) flash universal driver library | 一款使用 JEDEC SFDP 标准的串行 (SPI) Flash 通用驱动库 (github.com)](https://github.com/armink/SFUD)  
+**特征**：开源的串行 SPI Flash 通用驱动库，通过编写设备表，做到能适配各型号Flash芯片。  
 
 #### 要点
 
@@ -101,8 +101,8 @@
 
 ### TinyUSB
 
-**链接**：[TinyUSB](https://tinyusb.org)
-**特征**：是一个用于嵌入式系统的开源跨平台 USB 主机/设备堆栈，设计为内存安全，没有动态分配，线程安全，所有中断事件都被延迟，然后在非 ISR 任务函数中处理。
+**链接**：[TinyUSB](https://tinyusb.org)  
+**特征**：是一个用于嵌入式系统的开源跨平台 USB 主机/设备堆栈，设计为内存安全，没有动态分配，线程安全，所有中断事件都被延迟，然后在非 ISR 任务函数中处理。  
 
 #### 要点
 
@@ -110,8 +110,8 @@
 
 ### CherryUSB
 
-**链接**：[GitHub - cherry-embedded/CherryUSB: Tiny and portable USB Stack (device & host) for embedded system with USB IP](https://github.com/cherry-embedded/CherryUSB)
-**特征**：移植性高的、用于嵌入式系统(带 USB IP)的 USB 主从协议栈。
+**链接**：[GitHub - cherry-embedded/CherryUSB: Tiny and portable USB Stack (device & host) for embedded system with USB IP](https://github.com/cherry-embedded/CherryUSB)  
+**特征**：移植性高的、用于嵌入式系统(带 USB IP)的 USB 主从协议栈。  
 
 #### 要点
 
@@ -121,12 +121,12 @@
 
 ### OpenThread
 
-**链接**：[OpenThread](https://openthread.io/?hl=zh-cn)
-**特征**：Google 旗下的产品，是Thread的开源实现。
+**链接**：[OpenThread](https://openthread.io/?hl=zh-cn)  
+**特征**：Google 旗下的产品，是Thread的开源实现。  
 
 #### 要点
 
-- 参考：[Thread - ESP32 - — ESP-IDF 编程指南 latest 文档 (espressif.com)](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-reference/network/esp_openthread.html)
+- 参考：[Thread - ESP32 - — ESP-IDF 编程指南 latest 文档 (espressif.com)](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-reference/network/esp_openthread.html)  
   ESP的封装层：[esp-idf/components/openthread at be06a6f5ffe36f9554cfc91fe2036e0fc85fea60 · espressif/esp-idf (github.com)](https://github.com/espressif/esp-idf/tree/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/openthread)；
 
 ---
@@ -135,8 +135,8 @@
 
 ### bluetooth\_stack
 
-**链接**：[sj15712795029/bluetooth_stack: 这是一个开源的双模蓝牙协议栈(bluetooth.stack)(btstack),可以运行在STM32,Linux.，包含HCI,L2CAP,SDP,RFCOMM,HFP,SPP,A2DP,AVRCP,AVDTP,AVCTP,OBEX,PBAP等协议，后续会继续维护，以达到商用的目的](https://github.com/sj15712795029/bluetooth_stack)
-**特征**：一个开源的低功耗双模蓝牙协议栈，可以用于学习，作者有很多教程。
+**链接**：[sj15712795029/bluetooth_stack: 这是一个开源的双模蓝牙协议栈(bluetooth.stack)(btstack),可以运行在STM32,Linux.，包含HCI,L2CAP,SDP,RFCOMM,HFP,SPP,A2DP,AVRCP,AVDTP,AVCTP,OBEX,PBAP等协议，后续会继续维护，以达到商用的目的](https://github.com/sj15712795029/bluetooth_stack)  
+**特征**：一个开源的低功耗双模蓝牙协议栈，可以用于学习，作者有很多教程。  
 
 #### 要点
 
@@ -144,8 +144,8 @@
 
 ### BTstack
 
-**链接**：[BlueKitchen – BlueKitchen GmbH | Qualified Dual-mode Bluetooth Stack – Available in Source Code](https://bluekitchen-gmbh.com/)
-**特征**：是一个轻量级、开源的 蓝牙协议栈，专为嵌入式系统和资源受限设备设计，适合需要低功耗、高灵活性的场景。
+**链接**：[BlueKitchen – BlueKitchen GmbH | Qualified Dual-mode Bluetooth Stack – Available in Source Code](https://bluekitchen-gmbh.com/)  
+**特征**：是一个轻量级、开源的 蓝牙协议栈，专为嵌入式系统和资源受限设备设计，适合需要低功耗、高灵活性的场景。  
 
 #### 要点
 
@@ -153,8 +153,8 @@
 
 ### NimBLE
 
-**链接**：[apache/mynewt-nimble： Apache mynewt](https://github.com/apache/mynewt-nimble)
-**特征**：从Apache Mynewt中分离出来的一个开源的蓝牙协议栈（包括主机和控制器） 完全取代了 Nordic 芯片组上的专有 SoftDevice。
+**链接**：[apache/mynewt-nimble： Apache mynewt](https://github.com/apache/mynewt-nimble)  
+**特征**：从Apache Mynewt中分离出来的一个开源的蓝牙协议栈（包括主机和控制器） 完全取代了 Nordic 芯片组上的专有 SoftDevice。  
 
 #### 要点
 
@@ -166,8 +166,8 @@
 
 ### lwIP
 
-**链接**：[lwIP - A Lightweight TCP/IP stack - Summary [Savannah\] (nongnu.org)](http://savannah.nongnu.org/projects/lwip/)
-**特征**：小型开源的TCP/IP协议栈，使用最广泛的嵌入式网络协议栈，基本上物联网系统中都有它。
+**链接**：[lwIP - A Lightweight TCP/IP stack - Summary [Savannah\] (nongnu.org)](http://savannah.nongnu.org/projects/lwip/)  
+**特征**：小型开源的TCP/IP协议栈，使用最广泛的嵌入式网络协议栈，基本上物联网系统中都有它。  
 
 #### 要点
 
@@ -176,7 +176,8 @@
 - contrib包是移植和应用LwIP的一些demo；
 - 源文件本体里的test文件夹不是demo示例，而是测试LwIP内核性能的源码，可以获得许多与LwIP内核性能有关的指标，只有非常专业的人士才用的到。
 - 应用层不包含MQTT服务协议；
-- ```
+- 目录下各源文件  
+  ```plaintext
   lwip
    ┣ contrib                # demo例程，大多内容来自开源社区的贡献
    ┣ doc                    # 相关文档和指南。
@@ -212,8 +213,8 @@
 
 ### CycloneTCP
 
-**链接**：[CycloneTCP | Embedded TCP/IP Stack for STM32, PIC32, ARM Cortex-M (oryx-embedded.com)](https://www.oryx-embedded.com/products/CycloneTCP)
-**特征**：专用于嵌入式应用的双 IPv4/IPv6 栈，简化了互联网的部署。
+**链接**：[CycloneTCP | Embedded TCP/IP Stack for STM32, PIC32, ARM Cortex-M (oryx-embedded.com)](https://www.oryx-embedded.com/products/CycloneTCP)  
+**特征**：专用于嵌入式应用的双 IPv4/IPv6 栈，简化了互联网的部署。  
 
 #### 要点
 
@@ -221,8 +222,8 @@
 
 ### onps
 
-**链接**：[Open-NPStack: onps是一个开源且完全自主开发的国产网络协议栈。设计目标与LwIp相同，onps栈的目标系统同样是资源受限的单片机系统。提供完整的tcp/ip协议族实现，同时提供sntp、dns、ping等网络工具，支持以太网环境下dhcp动态ip地址申请，也支持动态及静态路由表。协议栈还封装实现了一个伯克利套接字（Berkeley sockets）层。协议栈使用ANSI C语言开发。 (gitee.com)](https://gitee.com/Neo-T/open-npstack)
-**特征**：国产网络协议栈，设计目标与Lwip相同，适用于资源受限的单片机系统，提供完整地ethernet/ppp/tcp/ip协议族实现。
+**链接**：[Open-NPStack: onps是一个开源且完全自主开发的国产网络协议栈。设计目标与LwIp相同，onps栈的目标系统同样是资源受限的单片机系统。提供完整的tcp/ip协议族实现，同时提供sntp、dns、ping等网络工具，支持以太网环境下dhcp动态ip地址申请，也支持动态及静态路由表。协议栈还封装实现了一个伯克利套接字（Berkeley sockets）层。协议栈使用ANSI C语言开发。 (gitee.com)](https://gitee.com/Neo-T/open-npstack)  
+**特征**：国产网络协议栈，设计目标与Lwip相同，适用于资源受限的单片机系统，提供完整地ethernet/ppp/tcp/ip协议族实现。  
 
 #### 要点
 
@@ -234,8 +235,8 @@
 
 ### LwGPS
 
-**链接**：[LwGPS latest-develop documentation — LwGPS documentation (majerle.eu)](https://docs.majerle.eu/projects/lwgps/en/latest/)
-**特征**：简易的 NMEA 报文解析库，内置支持 4 个 GPS 报文：GPGGA、GPGSA、GPGSV、GPRMC，以及允许自定义报文。
+**链接**：[LwGPS latest-develop documentation — LwGPS documentation (majerle.eu)](https://docs.majerle.eu/projects/lwgps/en/latest/)  
+**特征**：简易的 NMEA 报文解析库，内置支持 4 个 GPS 报文：GPGGA、GPGSA、GPGSV、GPRMC，以及允许自定义报文。  
 
 #### 要点
 
@@ -243,15 +244,14 @@
 
 ### RTKLIB
 
-**链接**：[GitHub - tomojitakasu/RTKLIB · GitHub](https://github.com/tomojitakasu/RTKLIB)
-**针对低成本 GNSS 接收器版本**：[GitHub - rtklibexplorer/RTKLIB: A version of RTKLIB optimized for low cost GNSS receivers, especially u-blox receivers. It is based on RTKLIB 2.4.3. This software is provided “AS IS” without any warranties of any kind so please be careful, especially if using it in any kind of real-time application. Click on the "Releases" label below to see the latest Windows pre-release. · GitHub](https://github.com/rtklibexplorer/RTKLIB)
-**针对智能手机 GNSS 芯片的优化版本**：[GitHub - salmoshu/MobileGNSS-SPP: An EKF-based SPP system optimized for smartphone · GitHub](https://github.com/salmoshu/MobileGNSS-SPP)
-**特征**：RTK领域的标杆库，广泛应用于商业以及社区，同时也是教科书式的参考手册。
+**链接**：[GitHub - tomojitakasu/RTKLIB · GitHub](https://github.com/tomojitakasu/RTKLIB)  
+**针对低成本 GNSS 接收器版本**：[GitHub - rtklibexplorer/RTKLIB: A version of RTKLIB optimized for low cost GNSS receivers, especially u-blox receivers. It is based on RTKLIB 2.4.3. This software is provided “AS IS” without any warranties of any kind so please be careful, especially if using it in any kind of real-time application. Click on the "Releases" label below to see the latest Windows pre-release. · GitHub](https://github.com/rtklibexplorer/RTKLIB)  
+**针对智能手机 GNSS 芯片的优化版本**：[GitHub - salmoshu/MobileGNSS-SPP: An EKF-based SPP system optimized for smartphone · GitHub](https://github.com/salmoshu/MobileGNSS-SPP)  
+**特征**：RTK领域的标杆库，广泛应用于商业以及社区，同时也是教科书式的参考手册。  
 
 #### 要点
 
-- *src* 目录下各源文件的主要作用说明：
-
+- *src* 目录下各源文件的主要作用说明：  
   ```plaintext
   src
   ├── rcv                # 专用于解析不同品牌GNSS接收机的专有二进制格式
@@ -305,8 +305,8 @@
 
 ### Ntrip
 
-**链接**：[GitHub - ybzwyrcld/ntrip: Simple ntrip caster/client/server example programs, using the NTRIP2.0 protocol](https://github.com/ybzwyrcld/ntrip)
-**特征**：C++编写的简易Ntrip协议库，包含流动站（Client）<sup>(Rover)</sup>、中央服务器（Caster）、基准站（CORS）<sup>(Server)</sup>。
+**链接**：[GitHub - ybzwyrcld/ntrip: Simple ntrip caster/client/server example programs, using the NTRIP2.0 protocol](https://github.com/ybzwyrcld/ntrip)  
+**特征**：C++编写的简易Ntrip协议库，包含流动站（Client）<sup>(Rover)</sup>、中央服务器（Caster）、基准站（CORS）<sup>(Server)</sup>。  
 
 #### 要点
 

@@ -10,8 +10,8 @@
 
 ### memory
 
-**链接**：[一个简单的 MCU 内存管理模块(附源码) (qq.com)](https://mp.weixin.qq.com/s/hWcoYVZE3SXgHC3ixrcP1A)
-**特征**：功能极简的内存管理模块，仅提供内存申请与释放，无其他额外功能。
+**链接**：[一个简单的 MCU 内存管理模块(附源码) (qq.com)](https://mp.weixin.qq.com/s/hWcoYVZE3SXgHC3ixrcP1A)  
+**特征**：功能极简的内存管理模块，仅提供内存申请与释放，无其他额外功能。  
 
 #### 要点
 
@@ -21,8 +21,8 @@
 
 ### mem\_malloc
 
-**链接**：[chenqy2018/mem_malloc (github.com)](https://github.com/chenqy2018/mem_malloc)
-**特征**：简单实用的内存管理模块，不会产生内存碎片。
+**链接**：[chenqy2018/mem_malloc (github.com)](https://github.com/chenqy2018/mem_malloc)  
+**特征**：简单实用的内存管理模块，不会产生内存碎片。  
 
 #### 要点
 
@@ -33,8 +33,8 @@
 
 ### tlsf
 
-**链接**：[mattconte/tlsf: Two-Level Segregated Fit memory allocator implementation. (github.com)](https://github.com/mattconte/tlsf)
-**特征**：TLSF 算法的堆内存分配库，支持动态添加、删除内存池区域，分配时间复杂度为 O(1)，不注重线程安全。
+**链接**：[mattconte/tlsf: Two-Level Segregated Fit memory allocator implementation. (github.com)](https://github.com/mattconte/tlsf)  
+**特征**：TLSF 算法的堆内存分配库，支持动态添加、删除内存池区域，分配时间复杂度为 O(1)，不注重线程安全。  
 
 #### 要点
 
@@ -42,8 +42,8 @@
 
 ### LwMEM
 
-**链接**：[LwMEM latest-develop documentation — LwMEM documentation (majerle.eu)](https://docs.majerle.eu/projects/lwmem/en/latest/)
-**特征**：专业内存管理库，类 C++ 封装函数，允许使用碎片内存，注重 RTOS 的线程安全。
+**链接**：[LwMEM latest-develop documentation — LwMEM documentation (majerle.eu)](https://docs.majerle.eu/projects/lwmem/en/latest/)  
+**特征**：专业内存管理库，类 C++ 封装函数，允许使用碎片内存，注重 RTOS 的线程安全。  
 
 #### 要点
 
@@ -51,8 +51,8 @@
 
 ### jemalloc
 
-**链接**：[jemalloc](https://jemalloc.net/)
-**特征**：高性能的内存分配器，适合处理多线程环境下大规模内存分配和释放的场景。
+**链接**：[jemalloc](https://jemalloc.net/)  
+**特征**：高性能的内存分配器，适合处理多线程环境下大规模内存分配和释放的场景。  
 
 #### 要点
 
@@ -62,8 +62,8 @@
 
 ### LWMalloc
 
-**链接**：[taehyeon-masu/lwmalloc --- taehyeon-masu/lwmalloc](https://github.com/taehyeon-masu/lwmalloc)
-**特征**：适用于Linux的轻量级动态内存分配器，旨在替代默认分配器 ptmalloc，性能和内存使用量都更优。
+**链接**：[taehyeon-masu/lwmalloc --- taehyeon-masu/lwmalloc](https://github.com/taehyeon-masu/lwmalloc)  
+**特征**：适用于Linux的轻量级动态内存分配器，旨在替代默认分配器 ptmalloc，性能和内存使用量都更优。  
 
 #### 要点
 
@@ -73,8 +73,8 @@
 
 ### flashMultipleErase
 
-**链接**：[chiphome/flashMultipleErase: 如何用单片机FLASH模拟EEPROM，并且通过算法优化实现高达100万次以上的存储次数！](https://github.com/chiphome/flashMultipleErase)
-**特征**：用FLASH模拟EEPROM，采用顺序写入的方法，以实现高达100万次以上的存储次数。
+**链接**：[chiphome/flashMultipleErase: 如何用单片机FLASH模拟EEPROM，并且通过算法优化实现高达100万次以上的存储次数！](https://github.com/chiphome/flashMultipleErase)  
+**特征**：用FLASH模拟EEPROM，采用顺序写入的方法，以实现高达100万次以上的存储次数。  
 
 #### 要点
 
@@ -82,8 +82,8 @@
 
 ### eepromfs
 
-**链接**：[zzao/eepromfs - 码云 - 开源中国 (gitee.com)](https://gitee.com/wtau_zaozao/eepromfs)
-**特征**：基于 EEPROM 的简易类文件数据读写库，它并不属于真正的文件系统，只是把数据读写模拟成文件的方式。
+**链接**：[zzao/eepromfs - 码云 - 开源中国 (gitee.com)](https://gitee.com/wtau_zaozao/eepromfs)  
+**特征**：基于 EEPROM 的简易类文件数据读写库，它并不属于真正的文件系统，只是把数据读写模拟成文件的方式。  
 
 #### 要点
 
@@ -95,8 +95,8 @@
 
 ### Dhara
 
-**链接**：[dlbeer/dhara: NAND flash translation layer for low-memory systems (github.com)](https://github.com/dlbeer/dhara)
-**特征**：用于小型单片机的 NAND 闪存转换层(FTL)。
+**链接**：[dlbeer/dhara: NAND flash translation layer for low-memory systems (github.com)](https://github.com/dlbeer/dhara)  
+**特征**：用于小型单片机的 NAND 闪存转换层(FTL)。  
 
 #### 要点
 
@@ -106,8 +106,8 @@
 
 ### kFlashFile
 
-**链接**：[JayHeng/kFlashFile: 基于 NOR Flash 的轻量级文件数据存储方案。主要为 i.MX RT 系列设计，也可轻松移植到其他 MCU 平台 (github.com)](https://github.com/JayHeng/kFlashFile)
-**特征**：基于 NOR Flash 的轻量级文件数据存储方案，主要用于需要断电数据保存的项目。
+**链接**：[JayHeng/kFlashFile: 基于 NOR Flash 的轻量级文件数据存储方案。主要为 i.MX RT 系列设计，也可轻松移植到其他 MCU 平台 (github.com)](https://github.com/JayHeng/kFlashFile)  
+**特征**：基于 NOR Flash 的轻量级文件数据存储方案，主要用于需要断电数据保存的项目。  
 
 #### 要点
 
@@ -115,8 +115,8 @@
 
 ### esp_partition
 
-**链接**：[esp-idf/components/esp_partition at be06a6f5ffe36f9554cfc91fe2036e0fc85fea60 · espressif/esp-idf (github.com)](https://github.com/espressif/esp-idf/tree/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/esp_partition)
-**特征**：ESP 旗下的分区表库，封装 SPI Flash 读写操作，允许以块为单位访问 flash。
+**链接**：[esp-idf/components/esp_partition at be06a6f5ffe36f9554cfc91fe2036e0fc85fea60 · espressif/esp-idf (github.com)](https://github.com/espressif/esp-idf/tree/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/esp_partition)  
+**特征**：ESP 旗下的分区表库，封装 SPI Flash 读写操作，允许以块为单位访问 flash。  
 
 #### 要点
 
@@ -126,8 +126,8 @@
 
 ### NVS
 
-**链接**：[esp-idf/components/nvs_flash at be06a6f5ffe36f9554cfc91fe2036e0fc85fea60 · espressif/esp-idf (github.com)](https://github.com/espressif/esp-idf/tree/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/nvs_flash)
-**特征**：ESP 旗下的非易失性存储库，主要用于在 flash 中存储键值格式的数据。配合 ESP 旗下的其他工具，支持加密、生成分区镜像等功能。
+**链接**：[esp-idf/components/nvs_flash at be06a6f5ffe36f9554cfc91fe2036e0fc85fea60 · espressif/esp-idf (github.com)](https://github.com/espressif/esp-idf/tree/be06a6f5ffe36f9554cfc91fe2036e0fc85fea60/components/nvs_flash)  
+**特征**：ESP 旗下的非易失性存储库，主要用于在 flash 中存储键值格式的数据。配合 ESP 旗下的其他工具，支持加密、生成分区镜像等功能。  
 
 #### 要点
 
@@ -201,9 +201,9 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 
 ### FatFs
 
-**链接**：[FatFs - Generic FAT Filesystem Module (elm-chan.org)](http://elm-chan.org/fsw/ff/00index_e.html)
-**8 位微控制器适配版**：[Petit FAT File System Module (elm-chan.org)](http://elm-chan.org/fsw/ff/00index_p.html)
-**特征**：易移植的小型文件系统模块，支持 exFAT 文件系统、64 位 LBA 和 GPT，可根据功能进行宏配置，注重线程安全。
+**链接**：[FatFs - Generic FAT Filesystem Module (elm-chan.org)](http://elm-chan.org/fsw/ff/00index_e.html)  
+**8 位微控制器适配版**：[Petit FAT File System Module (elm-chan.org)](http://elm-chan.org/fsw/ff/00index_p.html)  
+**特征**：易移植的小型文件系统模块，支持 exFAT 文件系统、64 位 LBA 和 GPT，可根据功能进行宏配置，注重线程安全。  
 
 #### 要点
 
@@ -223,8 +223,8 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 
 ### JesFs
 
-**链接**：[joembedded/JesFs: Jo's Embedded Serial File System (for Standard Serial NOR-Flash)](https://github.com/joembedded/JesFs)
-**特征**：专为资源受限的嵌入式系统设计的轻量级串行 NOR 闪存文件系统，适用于各种物联网应用场景，例如数据采集、事件记录和固件更新等。
+**链接**：[joembedded/JesFs: Jo's Embedded Serial File System (for Standard Serial NOR-Flash)](https://github.com/joembedded/JesFs)  
+**特征**：专为资源受限的嵌入式系统设计的轻量级串行 NOR 闪存文件系统，适用于各种物联网应用场景，例如数据采集、事件记录和固件更新等。  
 
 #### 要点
 
@@ -234,8 +234,8 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 
 ### RanFs
 
-**链接**：[RANFS - RFS](http://www.ranfs.com/cn/?RFS)
-**特征**：易移植的小型文件系统模块，提供 POSIX 兼容的文件操作，注重高效和数据可靠性。
+**链接**：[RANFS - RFS](http://www.ranfs.com/cn/?RFS)  
+**特征**：易移植的小型文件系统模块，提供 POSIX 兼容的文件操作，注重高效和数据可靠性。  
 
 #### 要点
 
@@ -243,8 +243,8 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 
 ### littlefs
 
-**链接**：[littlefs-project/littlefs: A little fail-safe filesystem designed for microcontrollers (github.com)](https://github.com/littlefs-project/littlefs)
-**特征**：专为微处理器设计的安全文件系统，具有掉电保护、擦写均衡、低资源消耗等功能。
+**链接**：[littlefs-project/littlefs: A little fail-safe filesystem designed for microcontrollers (github.com)](https://github.com/littlefs-project/littlefs)  
+**特征**：专为微处理器设计的安全文件系统，具有掉电保护、擦写均衡、低资源消耗等功能。  
 
 #### 要点
 
@@ -252,8 +252,8 @@ static int file_opt_read(const char *filename, void *ptr, int size)
 
 ### SPIFFS
 
-**链接**：[pellepl/spiffs: Wear-leveled SPI flash file system for embedded devices (github.com)](https://github.com/pellepl/spiffs)
-**特征**：专为低内存（<=128MB）而设计文件系统，使用静态大小的 ram 缓冲区，具有擦写均衡等功能。
+**链接**：[pellepl/spiffs: Wear-leveled SPI flash file system for embedded devices (github.com)](https://github.com/pellepl/spiffs)  
+**特征**：专为低内存（<=128MB）而设计文件系统，使用静态大小的 ram 缓冲区，具有擦写均衡等功能。  
 
 #### 要点
 

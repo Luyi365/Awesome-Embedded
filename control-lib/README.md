@@ -4,8 +4,8 @@
 
 ### pid_temperature_control
 
-**链接**：[pid_temperature_control: PID温控 (gitee.com)](https://gitee.com/jiezhuonew/pid_temperature_control)
-**特征**：PID温度控制，很好的一个示例，通过这个可以把PID控制发散至其他领域。
+**链接**：[pid_temperature_control: PID温控 (gitee.com)](https://gitee.com/jiezhuonew/pid_temperature_control)  
+**特征**：PID温度控制，很好的一个示例，通过这个可以把PID控制发散至其他领域。  
 
 #### 要点
 
@@ -18,8 +18,8 @@
 
 ### Grbl
 
-**链接**：[gnea/grbl: An open source, embedded, high performance g-code-parser and CNC milling controller written in optimized C that will run on a straight Arduino (github.com)](https://github.com/gnea/grbl)
-**特征**：行业著名的开源CNC代码，可用于激光切割机、自动手动写字机、钻孔机、涂鸦画家和古怪的绘图机等，是创客们的首选，也是行业标准。
+**链接**：[gnea/grbl: An open source, embedded, high performance g-code-parser and CNC milling controller written in optimized C that will run on a straight Arduino (github.com)](https://github.com/gnea/grbl)  
+**特征**：行业著名的开源CNC代码，可用于激光切割机、自动手动写字机、钻孔机、涂鸦画家和古怪的绘图机等，是创客们的首选，也是行业标准。  
 
 #### 要点
 
@@ -30,8 +30,8 @@
 
 ### µCNC
 
-**链接**：[Paciente8159/uCNC: µCNC - Universal CNC firmware for microcontrollers (github.com)](https://github.com/Paciente8159/uCNC)
-**特征**：用于微控制器的通用CNC固件。
+**链接**：[Paciente8159/uCNC: µCNC - Universal CNC firmware for microcontrollers (github.com)](https://github.com/Paciente8159/uCNC)  
+**特征**：用于微控制器的通用CNC固件。  
 
 #### 要点
 

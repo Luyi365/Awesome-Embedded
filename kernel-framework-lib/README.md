@@ -12,8 +12,8 @@
 
 ### cpost
 
-**链接**：[NevermindZZT/cpost (github.com)](https://github.com/NevermindZZT/cpost)
-**特征**：超轻量的上下文切换和任务解耦库，采用事件分发机制，适合于裸机系统。
+**链接**：[NevermindZZT/cpost (github.com)](https://github.com/NevermindZZT/cpost)  
+**特征**：超轻量的上下文切换和任务解耦库，采用事件分发机制，适合于裸机系统。  
 
 #### 要点
 
@@ -28,8 +28,8 @@
 
 ### LwEVT
 
-**链接**：[LwEVT latest-develop documentation — LwEVT documentation (majerle.eu)](https://docs.majerle.eu/projects/lwevt/en/latest/)
-**特征**：专业的事件模块库，可选数据结构的自定义类型，且挂载指定函数，可理解为事件和消息的结合。
+**链接**：[LwEVT latest-develop documentation — LwEVT documentation (majerle.eu)](https://docs.majerle.eu/projects/lwevt/en/latest/)  
+**特征**：专业的事件模块库，可选数据结构的自定义类型，且挂载指定函数，可理解为事件和消息的结合。  
 
 #### 要点
 
@@ -42,8 +42,8 @@
 
 ### YAMI4
 
-**链接**：[Inspirel - YAMI4](http://www.inspirel.com/yami4/index.html)
-**特征**：专为分布式系统设计的消息传递库，特别关注控制和监控系统。
+**链接**：[Inspirel - YAMI4](http://www.inspirel.com/yami4/index.html)  
+**特征**：专为分布式系统设计的消息传递库，特别关注控制和监控系统。  
 
 #### 要点
 
@@ -55,8 +55,8 @@
 
 ### ZeroMQ
 
-**链接**：[ZeroMQ](https://zeromq.org/)
-**特征**：一个高性能异步消息传递库，旨在用于分布式或并发应用程序。
+**链接**：[ZeroMQ](https://zeromq.org/)  
+**特征**：一个高性能异步消息传递库，旨在用于分布式或并发应用程序。  
 
 #### 要点
 
@@ -66,8 +66,8 @@
 
 ### CDIPC
 
-**链接**：[dukelec/cdipc: A Real-time Inter-Process Communication (IPC) mechanism and library](https://github.com/dukelec/cdipc?tab=readme-ov-file)
-**特征**：一种进程间通信 （IPC） 机制和库，适合在实时系统中协调感知、控制驱动程序和算法。
+**链接**：[dukelec/cdipc: A Real-time Inter-Process Communication (IPC) mechanism and library](https://github.com/dukelec/cdipc?tab=readme-ov-file)  
+**特征**：一种进程间通信 （IPC） 机制和库，适合在实时系统中协调感知、控制驱动程序和算法。  
 
 #### 要点
 
@@ -77,8 +77,8 @@
 
 ### readerwriterqueue
 
-**链接**：[cameron314/readerwriterqueue: A fast single-producer, single-consumer lock-free queue for C++ (github.com)](https://github.com/cameron314/readerwriterqueue)
-**特征**：基于C++的单生产者、单使用者无锁队列，意义同通管道框架，速度快且易用，无需锁也能注重线程安全。
+**链接**：[cameron314/readerwriterqueue: A fast single-producer, single-consumer lock-free queue for C++ (github.com)](https://github.com/cameron314/readerwriterqueue)  
+**特征**：基于C++的单生产者、单使用者无锁队列，意义同通管道框架，速度快且易用，无需锁也能注重线程安全。  
 
 #### 要点
 
@@ -88,8 +88,8 @@
 
 ### DataCenter
 
-**链接**：[X-TRACK/Software/X-Track/USER/App/Utils/DataCenter at main · FASTSHIFT/X-TRACK (github.com)](https://github.com/FASTSHIFT/X-TRACK/tree/main/Software/X-Track/USER/App/Utils/DataCenter)
-**特征**：基于 C++ 的消息发布订阅框架，提供完整的邮箱服务，适合项目级工程。
+**链接**：[X-TRACK/Software/X-Track/USER/App/Utils/DataCenter at main · FASTSHIFT/X-TRACK (github.com)](https://github.com/FASTSHIFT/X-TRACK/tree/main/Software/X-Track/USER/App/Utils/DataCenter)  
+**特征**：基于 C++ 的消息发布订阅框架，提供完整的邮箱服务，适合项目级工程。  
 
 #### 要点
 
@@ -99,8 +99,8 @@
 
 ### C Thread Pool
 
-**链接**：[Pithikos/C-Thread-Pool: A minimal but powerful thread pool in ANSI C](https://github.com/Pithikos/C-Thread-Pool)
-**特征**：轻量级的嵌入式线程池库，用于管理线程的创建和生命周期，解决频繁地创建和销毁线程所带来较大开销的问题。
+**链接**：[Pithikos/C-Thread-Pool: A minimal but powerful thread pool in ANSI C](https://github.com/Pithikos/C-Thread-Pool)  
+**特征**：轻量级的嵌入式线程池库，用于管理线程的创建和生命周期，解决频繁地创建和销毁线程所带来较大开销的问题。  
 
 #### 要点
 
@@ -112,8 +112,8 @@
 
 ### initcall
 
-**链接**：[提取 RT-Thread 的 initcall 框架 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/x4co95d03hvrjtpaz2lkm52)
-**特征**：提取 RT-Thread 的初始化框架，使初始化工作在内核中完成。
+**链接**：[提取 RT-Thread 的 initcall 框架 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/x4co95d03hvrjtpaz2lkm52)  
+**特征**：提取 RT-Thread 的初始化框架，使初始化工作在内核中完成。  
 
 #### 要点
 
@@ -121,8 +121,8 @@
 
 ### platform_dev
 
-**链接**：[简化版驱动框架 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/r6n19xu2ikatw7cojy8he84)
-**特征**：模仿 Linux 的简化版驱动框架，设计中不使用动态内存分配，适合低资源的芯片使用。
+**链接**：[简化版驱动框架 - 代码片段 - Gitee.com](https://gitee.com/Luyi365/codes/r6n19xu2ikatw7cojy8he84)  
+**特征**：模仿 Linux 的简化版驱动框架，设计中不使用动态内存分配，适合低资源的芯片使用。  
 
 #### 要点
 
@@ -136,8 +136,8 @@
 
 ### c-periphery
 
-**链接**：[vsergeev/c-periphery: A C library for peripheral I/O (GPIO, LED, PWM, SPI, I2C, MMIO, Serial) in Linux. (github.com)](https://github.com/vsergeev/c-periphery)
-**特征**：基于 Linux 的硬件外设抽象层模板。
+**链接**：[vsergeev/c-periphery: A C library for peripheral I/O (GPIO, LED, PWM, SPI, I2C, MMIO, Serial) in Linux. (github.com)](https://github.com/vsergeev/c-periphery)  
+**特征**：基于 Linux 的硬件外设抽象层模板。  
 
 #### 要点
 
@@ -149,8 +149,8 @@
 
 ### senser_algorithm
 
-**链接**：[传感器 + 算法处理框架: 适用于 RTOS 的传感器数据处理框架。](https://gitee.com/Luyi365/senser_algorithm)
-**特征**：适用于 RTOS 的传感器数据处理框架。
+**链接**：[传感器 + 算法处理框架: 适用于 RTOS 的传感器数据处理框架。](https://gitee.com/Luyi365/senser_algorithm)  
+**特征**：适用于 RTOS 的传感器数据处理框架。  
 
 #### 要点
 
@@ -160,8 +160,8 @@
 
 ### RIL
 
-**链接**：[ril: RIL 是一款专门为嵌入式平台开发的无线通信模块(GSM/GPRS/CatM1/NB)管理框架，适用于资源受限物联网终端设备（单片机 + 无线蜂窝模组的方案），并提供物联网通信所需的基本功能，包含网络注册、连接管理、短信收发及 Socket 通信。 (gitee.com)](https://gitee.com/moluo-tech/ril)
-**特征**：专门为嵌入式平台开发的无线通信模组(GSM/GPRS/CatM1/NB-Iot)管理软件。
+**链接**：[ril: RIL 是一款专门为嵌入式平台开发的无线通信模块(GSM/GPRS/CatM1/NB)管理框架，适用于资源受限物联网终端设备（单片机 + 无线蜂窝模组的方案），并提供物联网通信所需的基本功能，包含网络注册、连接管理、短信收发及 Socket 通信。 (gitee.com)](https://gitee.com/moluo-tech/ril)  
+**特征**：专门为嵌入式平台开发的无线通信模组(GSM/GPRS/CatM1/NB-Iot)管理软件。  
 
 #### 要点
 
@@ -171,8 +171,8 @@
 
 ### EFSMC
 
-**链接**：[EFSMC: EFSM(event finite state machine，事件驱动型有限状态机)，是一个基于事件驱动的有限状态机。使用EFSM可实现上百个状态、上千种事件处理，且可实现多重状态机和层次状态机。可应用在云后台微服务和嵌入式软件等各种平台中。 (gitee.com)](https://gitee.com/simpost/EFSMC)
-**特征**：基于事件驱动的有限状态机，通过巧妙设计，避免了命名冲突的问题。使用起来简单、方便、规范。
+**链接**：[EFSMC: EFSM(event finite state machine，事件驱动型有限状态机)，是一个基于事件驱动的有限状态机。使用EFSM可实现上百个状态、上千种事件处理，且可实现多重状态机和层次状态机。可应用在云后台微服务和嵌入式软件等各种平台中。 (gitee.com)](https://gitee.com/simpost/EFSMC)  
+**特征**：基于事件驱动的有限状态机，通过巧妙设计，避免了命名冲突的问题。使用起来简单、方便、规范。  
 
 #### 要点
 
@@ -180,8 +180,8 @@
 
 ### signals\_slots
 
-**链接**：[Aladdin-Wang/signals_slots: C语言实现的信号槽模块](https://github.com/Aladdin-Wang/signals_slots)
-**特征**：轻量级信号与槽框架，简化事件驱动编程。
+**链接**：[Aladdin-Wang/signals_slots: C语言实现的信号槽模块](https://github.com/Aladdin-Wang/signals_slots)  
+**特征**：轻量级信号与槽框架，简化事件驱动编程。  
 
 #### 要点
 
@@ -191,8 +191,8 @@
 
 ### UML State Machine in C
 
-**链接**：[kiishor/UML-State-Machine-in-C: A minimalist UML State machine framework for finite state machine and hierarchical state machine in C](https://github.com/kiishor/UML-State-Machine-in-C)
-**特征**：多平台、轻量级状态机框架，支持有限状态机和分层状态机，带有日志记录功能。
+**链接**：[kiishor/UML-State-Machine-in-C: A minimalist UML State machine framework for finite state machine and hierarchical state machine in C](https://github.com/kiishor/UML-State-Machine-in-C)  
+**特征**：多平台、轻量级状态机框架，支持有限状态机和分层状态机，带有日志记录功能。  
 
 #### 要点
 
@@ -202,8 +202,8 @@
 
 ### dynamic_loader
 
-**链接**：[dynamic_loader: 本项目是一个在单片机（如：STM32）上实现动态加载功能的函数库，与 Windows 中的 dll，Linux 中的 so 类似，可以将代码动态地从其他的存储介质，动态加载到 RAM 中 (gitee.com)](https://gitee.com/wzh1845462801/dynamic_loader)
-**特征**：动态加载函数库，裁剪自 ((20230814211403-0ambvjy 'RT-Thread')) 的 libdl 源码，不与原本 OS 耦合，可在裸机使用。
+**链接**：[dynamic_loader: 本项目是一个在单片机（如：STM32）上实现动态加载功能的函数库，与 Windows 中的 dll，Linux 中的 so 类似，可以将代码动态地从其他的存储介质，动态加载到 RAM 中 (gitee.com)](https://gitee.com/wzh1845462801/dynamic_loader)  
+**特征**：动态加载函数库，裁剪自 ((20230814211403-0ambvjy 'RT-Thread')) 的 libdl 源码，不与原本 OS 耦合，可在裸机使用。  
 
 #### 要点
 
@@ -218,15 +218,15 @@
 
 ### ERPC
 
-**链接**：[ERPC-doc: ERPC（Embedded Remote Procedure Call）是一个简单的、易用的、高效的嵌入式远程调用框架。它不仅实现了远程调用，还实现了状态通知（观察者模式），同时还支持数据加密（用户可自定义加密算法）、异常监控和完备的日志管理方法。使用ERPC可简化系统的设计难度，降低模块之间的耦合度，降低开发人员之间的依赖性。 (gitee.com)](https://gitee.com/simpost/ERPC-doc)
-**特征**：一个简单的、易用的、高效的远程调用框架。
+**链接**：[ERPC-doc: ERPC（Embedded Remote Procedure Call）是一个简单的、易用的、高效的嵌入式远程调用框架。它不仅实现了远程调用，还实现了状态通知（观察者模式），同时还支持数据加密（用户可自定义加密算法）、异常监控和完备的日志管理方法。使用ERPC可简化系统的设计难度，降低模块之间的耦合度，降低开发人员之间的依赖性。 (gitee.com)](https://gitee.com/simpost/ERPC-doc)  
+**特征**：一个简单的、易用的、高效的远程调用框架。  
 
 ---
 
 ### EmbedXrpc
 
-**链接**：[EmbedXrpc: 这个东西类似于 Google 的 GRPC,但是应用场景是单片机。RPC 远程调用极大的方便了开发，使得不必关注于协议解析，数据的序列化和反序列化等繁琐的工作。可是目前还没有在单片机上实现好用的 RPC 框架，于是我就谋生了做这个 RPC 框架的想法，所用的技术是：C#做 IDL 语言 +csscript+ 自己实现序列化和反序列化 + 代码生成 QQ 群 134161401 (gitee.com)](https://gitee.com/snikeguo/EmbedXrpc)
-**特征**：通过RPC通讯协议，可忽略协议本身进行业务逻辑的实现，附带代码生成工具。
+**链接**：[EmbedXrpc: 这个东西类似于 Google 的 GRPC,但是应用场景是单片机。RPC 远程调用极大的方便了开发，使得不必关注于协议解析，数据的序列化和反序列化等繁琐的工作。可是目前还没有在单片机上实现好用的 RPC 框架，于是我就谋生了做这个 RPC 框架的想法，所用的技术是：C#做 IDL 语言 +csscript+ 自己实现序列化和反序列化 + 代码生成 QQ 群 134161401 (gitee.com)](https://gitee.com/snikeguo/EmbedXrpc)  
+**特征**：通过RPC通讯协议，可忽略协议本身进行业务逻辑的实现，附带代码生成工具。  
 
 #### 要点
 
@@ -234,8 +234,8 @@
 
 ### erpc
 
-**链接**：[EmbeddedRPC/erpc: Embedded RPC](https://github.com/EmbeddedRPC/erpc)
-**特征**：是NXP开源的、用于多芯片嵌入式系统和异构多核SoC的开源远程过程调用（RPC）系统。
+**链接**：[EmbeddedRPC/erpc: Embedded RPC](https://github.com/EmbeddedRPC/erpc)  
+**特征**：是NXP开源的、用于多芯片嵌入式系统和异构多核SoC的开源远程过程调用（RPC）系统。  
 
 #### 要点
 
@@ -247,8 +247,8 @@
 
 ### FastCGI
 
-**链接**：[FastCGI.com Archives](https://fastcgi-archives.github.io/)
-**特征**：改进了传统CGI的性能，增加了分布式计算和多角色特性。
+**链接**：[FastCGI.com Archives](https://fastcgi-archives.github.io/)  
+**特征**：改进了传统CGI的性能，增加了分布式计算和多角色特性。  
 
 #### 要点
 
@@ -258,8 +258,8 @@
 
 ### Lighttpd
 
-**链接**：[Home - Lighttpd - fly light](https://www.lighttpd.net/)
-**特征**：是一个轻量级、高性能的 开源 Web 服务器，专为高并发、低内存占用 的场景设计。相比Apache 或 Nginx更适合嵌入式设备。
+**链接**：[Home - Lighttpd - fly light](https://www.lighttpd.net/)  
+**特征**：是一个轻量级、高性能的 开源 Web 服务器，专为高并发、低内存占用 的场景设计。相比Apache 或 Nginx更适合嵌入式设备。  
 
 #### 要点
 
@@ -269,8 +269,8 @@
 
 ### Mongoose
 
-**链接**：[Mongoose - an embedded Web Server, MQTT and Websocket library with built-in TCP/IP and TLS1.3 stack](https://mongoose.ws/)
-**特征**：C / C++的事件驱动网络库，除了基本协议栈还了内置HTTP、MQTT等服务协议，可在裸机及RTOS上运行，带有UI构建器。商用有付费限制。
+**链接**：[Mongoose - an embedded Web Server, MQTT and Websocket library with built-in TCP/IP and TLS1.3 stack](https://mongoose.ws/)  
+**特征**：C / C++的事件驱动网络库，除了基本协议栈还了内置HTTP、MQTT等服务协议，可在裸机及RTOS上运行，带有UI构建器。商用有付费限制。  
 
 #### 要点
 
@@ -278,8 +278,8 @@
 
 ### Boa
 
-**链接**：[Boa Webserver](http://www.boa.org/)
-**特征**：开源的小型Web服务器，适用于嵌入式应用。于2005起不再更新维护，目前存在已知安全漏洞，不推荐使用。
+**链接**：[Boa Webserver](http://www.boa.org/)  
+**特征**：开源的小型Web服务器，适用于嵌入式应用。于2005起不再更新维护，目前存在已知安全漏洞，不推荐使用。  
 
 #### 要点
 
@@ -287,8 +287,8 @@
 
 ### libevent
 
-**链接**：**[lib事件](https://libevent.org/)**
-**特征**：专用于网络服务器的事件驱动库，旨在替换事件驱动网络服务器中的事件循环。
+**链接**：**[lib事件](https://libevent.org/)**  
+**特征**：专用于网络服务器的事件驱动库，旨在替换事件驱动网络服务器中的事件循环。  
 
 #### 要点
 
@@ -298,8 +298,8 @@
 
 ### dyad
 
-**链接**：[rxi/dyad: Asynchronous networking for C (github.com)](https://github.com/rxi/dyad)
-**特征**：基于Linux的异步网络库，仅支持TCP 网络通讯，用于创建小型独立设备服务器，并为现有项目提供网络支持。
+**链接**：[rxi/dyad: Asynchronous networking for C (github.com)](https://github.com/rxi/dyad)  
+**特征**：基于Linux的异步网络库，仅支持TCP 网络通讯，用于创建小型独立设备服务器，并为现有项目提供网络支持。  
 
 #### 要点
 
@@ -309,8 +309,8 @@
 
 ### libevhtp
 
-**链接**：**[Yellow-Camper/libevhtp: Create extremely-fast and secure embedded HTTP servers with ease.](https://github.com/Yellow-Camper/libevhtp)** 
-**特征**：适合嵌入式设备的低负载HTTP库。
+**链接**：**[Yellow-Camper/libevhtp: Create extremely-fast and secure embedded HTTP servers with ease.](https://github.com/Yellow-Camper/libevhtp)**   
+**特征**：适合嵌入式设备的低负载HTTP库。  
 
 #### 要点
 
